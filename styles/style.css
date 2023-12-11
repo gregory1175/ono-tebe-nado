@@ -59,13 +59,13 @@
   .address__info {
     display: block;
     font-size: 18px;
-    line-height: 1.35;
+    line-height: 135%;
     text-underline-position: under;
   }
 
   .address__text {
     font-size: 18px;
-    line-height: 1.35;
+    line-height: 135%;
   }
 
   main {
@@ -176,8 +176,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
     list-style: none;
-    width: 1340px;
-    height: 579px;
   }
 
   .lost__card-list-item {
@@ -251,13 +249,12 @@
   .about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 24px;
-    padding: 0 50px;
+    column-gap: 25px;
+    padding: 0 50px 0px 145px;
   }
 
   .about__column {
-    justify-self: center;
-    margin-right: 120px;
+    padding: 0px 95px 0px 0px;
   }
 
   .about__logo {
@@ -302,6 +299,8 @@
 
   .address__address-text {
    width: 240px;
+   font-size: 18px;
+   line-height: 135%;
   }
 
   .footer__social-icon {
