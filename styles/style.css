@@ -144,7 +144,7 @@
     font-size: 22px;
     line-height: 1.27;
     text-transform: uppercase;
-   word-spacing: 18px;
+    word-spacing: 18px;
   }
 
   .bet-button {
@@ -250,11 +250,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
-    padding: 0 50px 0px 145px;
   }
 
   .about__column {
-    padding: 0px 95px 0px 0px;
+    padding: 0px 95px 0px 145px;
+  }
+
+  .about__column-text {
+    padding-right: 50px;
   }
 
   .about__logo {
